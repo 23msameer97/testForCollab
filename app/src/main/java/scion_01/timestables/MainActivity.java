@@ -1,5 +1,5 @@
 package scion_01.timestables;
-
+//this is my second commit, by scion01
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
     private SeekBar seekBar;
     private ArrayList<Integer> arrayList = new ArrayList<Integer>();
     private  ArrayAdapter<Integer> arrayAdapter;
-
+		
+	private String secondCommit;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
